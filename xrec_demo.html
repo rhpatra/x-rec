@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <title>X-Rec Files</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    
+    <header>
+	  <div id="strapline">
+	    <div id="welcome_slogan">
+	      <h3>Welcome To <span>X-Rec</span></h3>
+	    </div><!--close welcome_slogan-->
+      </div><!--close strapline-->	  
+	  <nav>
+	    <div id="menubar">
+          <ul id="nav">
+            <li><a href="xrec.html">Home</a></li>
+            <li ><a href="xrec_files.html">Files</a></li>
+		<li class="current"><a href="xrec_demo.html">Demo</a></li>
+
+          </ul>
+        </div><!--close menubar-->	
+      </nav>
+    </header>
+	
+    <div id="slideshow_container">  
+	  <div class="slideshow">
+	    <ul class="slideshow">
+          <li class="show"><img width="940" height="250" src="images/data_privacy_0.jpg" alt="&quot;Privacy&quot;" /></li>
+          <li><img width="940" height="250" src="images/privacy_policy.jpg" alt="&quot;Privacy&quot;" /></li>
+        </ul> 
+	  </div><!--close slideshow-->  	
+	</div><!--close slideshow_container-->  	
+    
+	<div id="site_content">
+
+	
+	  <div id="content">
+        <div class="content_item">
+
+          <h2>Demonstration of X-Rec</h2>
+		<video width="900" height="700" controls>
+			  <source src="X-Rec_Demo_Video.mp4" type="video/mp4">
+			  <source src="X-Rec_Demo_Video.webm" type="video/webm">
+			  <source src="X-Rec_Demo_Video.ogg" type="video/ogg">
+			  Your browser does not support HTML5 video.
+		</video>
+ 
+	<h1>Experimental Platform</h1> 
+	<p> For the underlying servers, the X-server, the TP and the TTP are implemented with <a href="http://tomcat.apache.org/">Apache Tomcat</a> and deployed on a Supermicro dual-socket server with 2 Processors Intel(R) Xeon(R) 10-core CPU E5-2680 v2 at 2.80GHz (with hyperthreading, we have 40 virtual cores in all). For X-client, we use a laptop with Intel Core i7 2.6GHz processor. </p>
+	<h1>Dataset</h1>
+	<p> For the demonstration, we used sampled real-world traces from <a href="https://movielens.org/">Movielens</a>.</p>
+  
+</object>
+           		
+		</div><!--close content_item-->
+      </div><!--close content-->   
+	</div><!--close site_content-->  	
+  </div><!--close main-->
+
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>	
+  
+</body>
+</html>

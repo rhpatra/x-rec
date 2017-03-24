@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <title>X-Rec</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">		
+
+    <header>
+	  <div id="strapline">
+	    <div id="welcome_slogan">
+	      <h3>Welcome To <span>X-Rec</span></h3>
+	    </div><!--close welcome_slogan-->
+      </div><!--close strapline-->	  
+	  <nav>
+	    <div id="menubar">
+          <ul id="nav">
+            <li class="current"><a href="xrec.html">Home</a></li>
+            <li><a href="xrec_files.html">Files</a></li>
+		<li><a href="xrec_demo.html">Demo</a></li>
+          </ul>
+        </div><!--close menubar-->	
+      </nav>
+    </header>
+    
+    <div id="slideshow_container">  
+	  <div class="slideshow">
+	    <ul class="slideshow">
+          <li class="show"><img width="940" height="250" src="images/data_privacy_0.jpg" alt="&quot;Privacy&quot;" /></li>
+          <li><img width="940" height="250" src="images/privacy_policy.jpg" alt="&quot;Privacy&quot;" /></li>
+        </ul> 
+	  </div><!--close slideshow-->  	
+	</div><!--close slideshow_container-->   
+	
+	<div id="site_content">		
+	  
+	   
+	  <div id="content">
+        <div class="content_item">
+		  <h1>X-Rec</h1> 
+
+
+
+
+
+
+          <p>Recommenders largely rely on collaborative filtering schemes to suggest movies, books or news to their users. These filtering
+schemes are effective in practice. They, nevertheless, are also a threat to privacy as user profiles are made available to the recommender
+and can even be guessed by other users who analyze the output of the recommendations. Users can simply encrypt their profiles to hide them from the recommender and add randomness to make them hard to guess. These precautionary measures, however, typically hamper latency and recommendation quality.</p>
+
+<p>
+In this paper, we show how these tradeoffs can be addressed in a novel middleware recommender, X-REC, enabling an effective private collaborative filtering scheme. X-REC builds on two middleware services, of which we present efficient implementations: X-HE, an encryption protocol designed for recommenders, and X-NN, a neighborhood selection protocol designed for encrypted profiles. X-REC leverages the uniform sampling of users to guard against curious users and ensure differential privacy, and moreover, to gain performance in latency.
+</p>
+
+<p>Our extensive evaluation demonstrates that X-REC provides (1) recommendation quality similar to state-of-the-art non-private collaborative filtering based recommenders and (2) significant latency improvement over privacy-aware alternatives.</p>   		
+	  
+
+
+
+
+
+
+
+
+
+<img src="images/Arch_overview.png" alt="X-Rec Overview" style="width:650px;height:468px">
+		  
+		</div><!--close content_item-->
+      </div><!--close content-->   
+	</div><!--close site_content-->  	
+
+	
+  </div><!--close main-->
+  
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+  
+</body>
+</html>
